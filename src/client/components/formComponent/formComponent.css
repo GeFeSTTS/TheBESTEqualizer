@@ -1,0 +1,45 @@
+.field input, button[class=submit] {
+    width: 100%;
+}
+
+.field input {
+    border-radius: 0.5rem;
+    height: 2rem;
+    color: var(--authInputFont-black);
+}
+
+.field input::placeholder {
+    color: var(--authInputFont-black);
+}
+
+.submit {
+    border: none;
+    outline: none;
+    height: 3rem;
+    background: #1b072b;
+    color: var(--authFont-white);
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.submit:hover {
+    background: #03a9f4;
+    transition-timing-function: all 0.5s ease-in;
+    transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+  
+    transition-timing-function: all 0.5s ease-out;
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    color: var(--authInputFont-black);
+}
+
+.submit:active {
+    transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+    .submit {
+        height: 2rem;
+        font-size: 1rem;
+    }
+}

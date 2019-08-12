@@ -1,0 +1,17 @@
+#detailstrack {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#detailstrack .TrackName{
+  margin-left: 5px;
+}
+
+#detailstrack .icon {
+  color: var(--mainText-accent-blue);
+  margin-right: 5px;
+}

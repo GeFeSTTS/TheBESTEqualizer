@@ -1,0 +1,37 @@
+.ButtonStyleTemplate {
+  font-family: var(--font-ordinary);
+  font-size: var(--fontSize-text);
+  color: var(--mainText-ordinary-white);
+  border: 1px solid var(--mainText-accent-blue);
+  background-color: var(--rangeSlider-ocean);
+
+  display: flex;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto 10px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonStyleTemplate:hover {
+  color: var(--rangeSlider-ocean);
+  border: 1px solid var(--mainText-accent-blue);
+  background-color: var(--mainText-ordinary-white);
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.ButtonStyleTemplate .icon {
+  font-size: var(--fontSize-ButtonsIcons);
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+.ButtonStyleTemplate:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,52 @@
+.Sliders--slider {
+  width: 3px;
+  height: 100px;
+  margin: 5px 35px;
+  border: 1px solid var(--rangeSlider-ocean);
+}
+
+.Sliders--slider .rangeslider__fill {
+  background-color: var(--rangeSlider-ocean);
+}
+
+.Sliders--slider .rangeslider__handle {
+  background: var(--accentElement-terquoise);
+
+  left: -8px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  outline: none;
+  
+}
+
+.Sliders--slider .rangeslider__handle .rangeslider__handle-tooltip {
+  display: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+}
+
+.Sliders--slider .rangeslider__handle:hover {
+  background-color: var(--mainText-accent-blue);
+
+  transition: 0.3s ease all;
+}
+
+.Slider--value {
+  color: var(--mainText-ordinary-white);
+  font-size: var(--fontSize-text);
+}
+
+.Slider--label {
+  font-family: var(--font-ordinary);
+  font-size: var(--fontSize-text);
+  color: var(--mainText-ordinary-white);
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 15px auto;
+}

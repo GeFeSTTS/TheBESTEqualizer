@@ -1,0 +1,30 @@
+.logout {
+    font-family: var(--font-ordinary);
+    font-size: var(--fontSize-text);
+    color: var(--mainText-ordinary-white);
+    border: 1px solid var(--mainText-accent-blue);
+    background-color: var(--rangeSlider-ocean);
+
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+}
+.logout:hover{
+
+    color: var(--rangeSlider-ocean);
+    border: 1px solid var(--mainText-accent-blue);
+    background-color: var(--mainText-ordinary-white);
+  
+    cursor: pointer;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+}
+
+.ButtonLogoutTemplate .icon {
+    width: 500px;
+}

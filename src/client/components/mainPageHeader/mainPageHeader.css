@@ -1,0 +1,48 @@
+.MainPageHeaderContainer {
+  display: flex;
+  width: 100%;
+  padding: 0 25px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--rangeSlider-ocean);
+}
+
+.AppLogoContainer {
+  font-family: var(--font-title);
+  color: var(--mainText-ordinary-white);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.AppLogoContainer .Node {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.AppLogoContainer img {
+  color: var(--mainText-ordinary-white);
+  width: 70px;
+  height: 60px; 
+}
+
+.UserName span {
+  font-size: var(--fontSize-text);
+  color: var(--mainText-ordinary-white);
+
+  margin-left: 10px;
+  letter-spacing: 0.8px;
+}
+
+.UserName .icon {
+  color: var(--mainText-accent-blue);
+}
+
+.UserNameAndLogout {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

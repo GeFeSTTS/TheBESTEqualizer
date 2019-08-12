@@ -1,0 +1,29 @@
+.toggle {
+    padding: 15px;
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    transition: height 1s, visibility 0s, opacity .3s ease-in-out;
+}
+.toggle__button {
+    outline: none;
+    border: none;
+    margin: 5px;
+    border: 1px solid var(--mainText-accent-blue);
+    border-radius: 5px;
+    background-color: var(--mainText-accent-blue);
+    height: 30px;
+    text-align: center;
+    color: var(--bodyBackground-dark-light);
+}
+.toggle__button:hover{
+    transition: 0.3s ease all;
+    background-color: var(--bodyBackground-dark-light);
+    color: var(--mainText-ordinary-white);
+    cursor: pointer;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+ }

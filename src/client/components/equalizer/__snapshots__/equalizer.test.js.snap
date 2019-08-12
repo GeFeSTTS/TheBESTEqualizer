@@ -1,0 +1,859 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test equalizer test to make snapshot should render component properly 1`] = `
+Equalizer {
+  "attachFiltersToSource": [Function],
+  "context": Object {},
+  "createSoundStream": [Function],
+  "detectStreamSoundFromMicrophone": [Function],
+  "pauseSoundFromFile": [Function],
+  "playSoundFromFile": [Function],
+  "props": Object {
+    "audioData": Object {
+      "analyser": Object {
+        "fftSize": 128,
+      },
+      "audioContext": Object {},
+      "heightCanvas": 200,
+      "widthCanvas": 100,
+    },
+    "blocksData": Array [
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "feedback": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+          "time": Object {
+            "maxValue": 5,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+        },
+        "isVisible": true,
+        "name": "Delay",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "feedback": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+          "time": Object {
+            "maxValue": 5,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Ping-Pong Delay",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "cutoff": Object {
+            "maxValue": 4000,
+            "minValue": 0,
+            "step": 100,
+            "value": 0,
+          },
+          "feedback": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+          "time": Object {
+            "maxValue": 5,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Dub Delay",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "gain": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Distortion",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "highGain": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "lowGain": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "midHighGain": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "midLowGain": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": true,
+        "name": "Quadrafuzz",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "depth": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "feedback": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "speed": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "time": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": true,
+        "name": "Flanger",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "decay": Object {
+            "maxValue": 3,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 3,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "time": Object {
+            "maxValue": 3,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": true,
+        "name": "Reverb",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "depth": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "speed": Object {
+            "maxValue": 20,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Tremolo",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "pan": Object {
+            "maxValue": 1,
+            "minValue": -1,
+            "step": 0.01,
+            "value": 0,
+          },
+        },
+        "isVisible": true,
+        "name": "Stereo panner",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "attack": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+          "knee": Object {
+            "maxValue": 40,
+            "minValue": 0,
+            "step": 1,
+            "value": 0,
+          },
+          "ratio": Object {
+            "maxValue": 20,
+            "minValue": 1,
+            "step": 1,
+            "value": 1,
+          },
+          "release": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.001,
+            "value": 0,
+          },
+          "threshold": Object {
+            "maxValue": 0,
+            "minValue": -100,
+            "step": 1,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Compressor",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "frequency": Object {
+            "maxValue": 22050,
+            "minValue": 10,
+            "step": 1,
+            "value": 22050,
+          },
+          "peak": Object {
+            "maxValue": 20,
+            "minValue": 0.0001,
+            "step": 0.0001,
+            "value": 0.0001,
+          },
+        },
+        "isVisible": false,
+        "name": "Low-Pass Filter",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "frequency": Object {
+            "maxValue": 22050,
+            "minValue": 10,
+            "step": 1,
+            "value": 10,
+          },
+          "peak": Object {
+            "maxValue": 20,
+            "minValue": 0.0001,
+            "step": 0.0001,
+            "value": 0.0001,
+          },
+        },
+        "isVisible": false,
+        "name": "High-Pass Filter",
+      },
+      Object {
+        "createEffect": [Function],
+        "effects": Object {
+          "distortion": Object {
+            "maxValue": 50,
+            "minValue": 0.2,
+            "step": 0.0001,
+            "value": 0.2,
+          },
+          "mix": Object {
+            "maxValue": 1,
+            "minValue": 0,
+            "step": 0.01,
+            "value": 0,
+          },
+          "speed": Object {
+            "maxValue": 2000,
+            "minValue": 0,
+            "step": 1,
+            "value": 0,
+          },
+        },
+        "isVisible": false,
+        "name": "Ring Modulator",
+      },
+    ],
+    "createAudioDataAsProp": [Function],
+    "createStreamDataAsProp": [Function],
+    "playPauseSoundFromFileAsProp": [Function],
+    "startCreationAudioDataAsProp": [Function],
+    "startMuteStreamAudioAsProp": [Function],
+    "store": Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    },
+  },
+  "refs": Object {},
+  "removeSoundFilters": [Function],
+  "renderEqualizer": [Function],
+  "roundedRect": [Function],
+  "setCanvasToState": [Function],
+  "startMuteStream": [Function],
+  "state": Object {
+    "analyser": Object {
+      "fftSize": 128,
+    },
+    "audioContext": Object {},
+    "ctx": null,
+    "numPoints": NaN,
+    "uint8Array": Uint8Array [],
+  },
+  "stopSoundFromFile": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <Equalizer
+        audioData={
+          Object {
+            "analyser": Object {
+              "fftSize": 128,
+            },
+            "audioContext": Object {},
+            "heightCanvas": 200,
+            "widthCanvas": 100,
+          }
+        }
+        blocksData={
+          Array [
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "feedback": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+                "time": Object {
+                  "maxValue": 5,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+              },
+              "isVisible": true,
+              "name": "Delay",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "feedback": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+                "time": Object {
+                  "maxValue": 5,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Ping-Pong Delay",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "cutoff": Object {
+                  "maxValue": 4000,
+                  "minValue": 0,
+                  "step": 100,
+                  "value": 0,
+                },
+                "feedback": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+                "time": Object {
+                  "maxValue": 5,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Dub Delay",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "gain": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Distortion",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "highGain": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "lowGain": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "midHighGain": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "midLowGain": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": true,
+              "name": "Quadrafuzz",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "depth": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "feedback": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "speed": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "time": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": true,
+              "name": "Flanger",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "decay": Object {
+                  "maxValue": 3,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 3,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "time": Object {
+                  "maxValue": 3,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": true,
+              "name": "Reverb",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "depth": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "speed": Object {
+                  "maxValue": 20,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Tremolo",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "pan": Object {
+                  "maxValue": 1,
+                  "minValue": -1,
+                  "step": 0.01,
+                  "value": 0,
+                },
+              },
+              "isVisible": true,
+              "name": "Stereo panner",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "attack": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+                "knee": Object {
+                  "maxValue": 40,
+                  "minValue": 0,
+                  "step": 1,
+                  "value": 0,
+                },
+                "ratio": Object {
+                  "maxValue": 20,
+                  "minValue": 1,
+                  "step": 1,
+                  "value": 1,
+                },
+                "release": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.001,
+                  "value": 0,
+                },
+                "threshold": Object {
+                  "maxValue": 0,
+                  "minValue": -100,
+                  "step": 1,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Compressor",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "frequency": Object {
+                  "maxValue": 22050,
+                  "minValue": 10,
+                  "step": 1,
+                  "value": 22050,
+                },
+                "peak": Object {
+                  "maxValue": 20,
+                  "minValue": 0.0001,
+                  "step": 0.0001,
+                  "value": 0.0001,
+                },
+              },
+              "isVisible": false,
+              "name": "Low-Pass Filter",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "frequency": Object {
+                  "maxValue": 22050,
+                  "minValue": 10,
+                  "step": 1,
+                  "value": 10,
+                },
+                "peak": Object {
+                  "maxValue": 20,
+                  "minValue": 0.0001,
+                  "step": 0.0001,
+                  "value": 0.0001,
+                },
+              },
+              "isVisible": false,
+              "name": "High-Pass Filter",
+            },
+            Object {
+              "createEffect": [Function],
+              "effects": Object {
+                "distortion": Object {
+                  "maxValue": 50,
+                  "minValue": 0.2,
+                  "step": 0.0001,
+                  "value": 0.2,
+                },
+                "mix": Object {
+                  "maxValue": 1,
+                  "minValue": 0,
+                  "step": 0.01,
+                  "value": 0,
+                },
+                "speed": Object {
+                  "maxValue": 2000,
+                  "minValue": 0,
+                  "step": 1,
+                  "value": 0,
+                },
+              },
+              "isVisible": false,
+              "name": "Ring Modulator",
+            },
+          ]
+        }
+        createAudioDataAsProp={[Function]}
+        createStreamDataAsProp={[Function]}
+        playPauseSoundFromFileAsProp={[Function]}
+        startCreationAudioDataAsProp={[Function]}
+        startMuteStreamAudioAsProp={[Function]}
+        store={
+          Object {
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+            Symbol(Symbol.observable): [Function],
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <div
+        className="graphicEqualizer"
+      >
+        <div
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <GraphicEqualiser
+            getCanvasEl={[Function]}
+            height={200}
+            width={100}
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <Memo(ConnectFunction) />
+        </div>
+        <div
+          className="ButtonsContainer"
+        >
+          <Button
+            className="ButtonStyleTemplate StartStreamButton"
+            icon={
+              <FontAwesomeIcon
+                border={false}
+                className="icon"
+                fixedWidth={false}
+                flip={null}
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f024",
+                      "M349.565 98.783C295.978 98.783 251.721 64 184.348 64c-24.955 0-47.309 4.384-68.045 12.013a55.947 55.947 0 0 0 3.586-23.562C118.117 24.015 94.806 1.206 66.338.048 34.345-1.254 8 24.296 8 56c0 19.026 9.497 35.825 24 45.945V488c0 13.255 10.745 24 24 24h16c13.255 0 24-10.745 24-24v-94.4c28.311-12.064 63.582-22.122 114.435-22.122 53.588 0 97.844 34.783 165.217 34.783 48.169 0 86.667-16.294 122.505-40.858C506.84 359.452 512 349.571 512 339.045v-243.1c0-23.393-24.269-38.87-45.485-29.016-34.338 15.948-76.454 31.854-116.95 31.854z",
+                    ],
+                    "iconName": "flag",
+                    "prefix": "fas",
+                  }
+                }
+                inverse={false}
+                listItem={false}
+                mask={null}
+                pull={null}
+                pulse={false}
+                rotation={null}
+                size={null}
+                spin={false}
+                symbol={false}
+                title=""
+                transform={null}
+              />
+            }
+            onClick={[Function]}
+            value="Start stream"
+          />
+          <Memo(ConnectFunction)
+            handleInfoFromSound={[Function]}
+          />
+          <div
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          />
+        </div>
+        <InfoAboutTrack />
+      </div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

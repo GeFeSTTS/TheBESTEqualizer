@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test infoAboutUploadFile component should render component properly 1`] = `
+"<div id=\\"detailstrack\\">
+  <FontAwesomeIcon icon={{...}} className=\\"icon\\" border={false} mask={{...}} fixedWidth={false} inverse={false} flip={{...}} listItem={false} pull={{...}} pulse={false} rotation={{...}} size={{...}} spin={false} symbol={false} title=\\"\\" transform={{...}} />
+  <span className=\\"TrackName\\">
+    Track name:
+  </span>
+   
+  fakeName
+</div>"
+`;

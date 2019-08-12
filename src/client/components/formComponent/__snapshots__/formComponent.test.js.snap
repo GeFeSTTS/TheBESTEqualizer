@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing render should render FormComponent properly 1`] = `
+"<div className=\\"form-body\\" autoComplete=\\"off\\">
+  <RenderFormFields fieldsToRender={{...}} onInputChange={[Function: mockConstructor]} userData={{...}} validationErrors={[undefined]} />
+  <div className=\\"field\\">
+    <Button onClick={[Function: mockConstructor]} className=\\"submit\\" value=\\"Submit\\" type=\\"submit\\" disabled={{...}} />
+  </div>
+</div>"
+`;

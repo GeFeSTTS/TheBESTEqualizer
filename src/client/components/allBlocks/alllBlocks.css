@@ -1,0 +1,62 @@
+.SlidersComponent__main--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.AllSliders{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid var(--rangeSlider-ocean);
+  width: 95%;
+  margin: 15px auto;
+  border-radius: 4px;
+}
+
+.ListOfEffects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Effect{
+  margin: 5px;
+  border: 1px solid var(--mainText-accent-blue);
+  border-radius: 5px;
+  background-color: var(--mainText-accent-blue);
+  width: 135px;
+  height: 30px;
+  text-align: center;
+  color: var(--bodyBackground-dark-light);
+  font-family: var(--font-ordinary);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.Effect:hover{
+  transition: 0.3s ease all;
+  background-color: var(--bodyBackground-dark-light);
+  color: var(--mainText-ordinary-white);
+  cursor: pointer;
+}
+
+.Effect input{
+  margin: auto 0;
+}
+
+.Sliders {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.SlidersComponent__main--container .Buttons {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

@@ -1,0 +1,21 @@
+.Sliders__block {
+  border: 1px solid var(--mainText-accent-blue);
+
+  margin: 20px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Sliders__block--sliders {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Sliders__block--title {
+  font-family: var(--font-title);
+  font-size: var(--fontSize-title);
+  color: var(--mainText-ordinary-white);
+  letter-spacing: 2px;
+  margin: 15px 0;
+}

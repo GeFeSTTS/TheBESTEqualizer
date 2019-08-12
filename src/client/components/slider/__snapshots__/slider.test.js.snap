@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OneSlider /> matches snapshot 1`] = `
+<Connect(OneSlider)
+  blockName="Delay"
+  effectName="feedback"
+  effectValues={
+    Object {
+      "maxValue": 1,
+      "minValue": 0,
+      "step": 0.01,
+      "value": 0,
+    }
+  }
+/>
+`;

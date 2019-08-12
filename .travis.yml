@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+  - "stable"
+
+cache:
+  directories:
+  - node_modules
+
+install:
+  - nvm install stable
+  - npm install
+
+script:
+  - eslint --config src/client/.eslintrc.js src/client
+  - eslint --config src/server/.eslintrc.js src/server
+  - npm run build:client

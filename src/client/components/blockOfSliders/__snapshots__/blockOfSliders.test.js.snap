@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BlockOfSliders /> matches snapshot 1`] = `
+<div
+  className="Sliders__block"
+>
+  <p
+    className="Sliders__block--title"
+  >
+    Delay
+  </p>
+  <div
+    className="Sliders__block--sliders"
+  >
+    <Connect(OneSlider)
+      blockName="Delay"
+      effectName="feedback"
+      effectValues={
+        Object {
+          "maxValue": 1,
+          "minValue": 0,
+          "step": 0.01,
+          "value": 0,
+        }
+      }
+      key="feedback"
+    />
+    <Connect(OneSlider)
+      blockName="Delay"
+      effectName="time"
+      effectValues={
+        Object {
+          "maxValue": 5,
+          "minValue": 0,
+          "step": 0.001,
+          "value": 0,
+        }
+      }
+      key="time"
+    />
+    <Connect(OneSlider)
+      blockName="Delay"
+      effectName="mix"
+      effectValues={
+        Object {
+          "maxValue": 1,
+          "minValue": 0,
+          "step": 0.001,
+          "value": 0,
+        }
+      }
+      key="mix"
+    />
+  </div>
+</div>
+`;

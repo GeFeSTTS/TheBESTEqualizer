@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Auth render <Auth /> should render Authentication properly 1`] = `
+"<div className=\\"authentication\\">
+  <img type=\\"image/svg+xml\\" src=\\"test-file-stub\\" alt=\\"Music band\\" className=\\"authImage\\" />
+  <div className=\\"form-container\\">
+    <h1 className=\\"title\\">
+      Login
+    </h1>
+    <FormComponent fieldsToRender={{...}} onInputChange={[Function]} onFormSubmit={[Function]} userData={{...}} validationErrors={{...}} loading={false} />
+    <input type=\\"button\\" onClick={[Function]} className=\\"message\\" value=\\"Dont have an account? Register!\\" />
+  </div>
+</div>"
+`;

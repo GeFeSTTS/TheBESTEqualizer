@@ -1,0 +1,91 @@
+.authentication {
+    font-family: var(--font-authentication);
+    color: var(--authFont-white);
+    background: url(../../assets/images/authBackground.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    width: 320px;
+    padding: 0 1rem;
+}
+
+.message {
+    color: var(--authFont-white);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.message:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1440px) {
+    .authImage {
+        width: 40%;
+    }
+
+    .form-container {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .authImage {
+        width: 60%;
+    }
+
+    .form-container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-height: 754px) and (max-width: 768px) {
+    .authImage {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .authentication {
+        flex-wrap: wrap;
+    }
+    
+    .authImage {
+        margin-bottom: -10rem;
+    }
+    
+    .form-container {
+        width: 50%;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .authImage {
+        display: none;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

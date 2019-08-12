@@ -1,0 +1,27 @@
+:root {
+  /* Fonts */
+  --font-title: 'Orbitron', sans-serif;
+  --font-ordinary: 'Khand', sans-serif;
+  --font-authentication: 'Segoe UI', sans-serif;
+
+  /* Icons */
+  --fontSize-ModesIcons: 25px;
+  --fontSize-ButtonsIcons: 18px;
+  /* Text */
+  --mainText-ordinary-white: #FFFFFF;
+  --fontSize-title: 1rem;
+  --fontSize-text: 0.8rem;
+
+  /* Color Elements */
+  --authFont-white: #ffffff;
+  --authInputBackground-blue-superlight: #e8f0fe;
+  --authInputFont-black: #000000;
+  --bodyBackground-dark-light: #142A48;
+  --headerBackground-dark-super: #131E2F;
+  --mainText-accent-blue: #05D8C5;
+  --accentElement-terquoise: #69dde6;
+  --accentElement-terquoise: #69dde6;
+  --rangeSlider-ocean: #0B85B2;
+  --togglerSliderBackOn-whitesmoke: #eeeeee;
+  --togglerSliderOff-white: #ffffff;
+}

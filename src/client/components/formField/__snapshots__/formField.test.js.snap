@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing render should render formField properly 1`] = `
+"<div className=\\"formField\\">
+  <label htmlFor=\\"field\\" className=\\"label\\" />
+  <div className=\\"field\\">
+    <input onChange={[Function: mockConstructor]} name=\\"\\" type=\\"\\" value=\\"\\" />
+  </div>
+  <div className=\\"error\\" />
+</div>"
+`;

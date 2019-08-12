@@ -1,0 +1,22 @@
+.SlidersComponent {
+  font-family: Bitter, serif;
+  width: 100%;
+}
+
+.SlidersComponent__header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.SlidersComponent__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.SlidersComponent__main--buttons {
+  display: flex;
+  justify-content: space-around;
+}
